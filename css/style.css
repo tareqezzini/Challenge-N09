@@ -17,13 +17,13 @@ body::before
 {
     content: '';
     position: absolute;
-    background: linear-gradient(to top,  hsl(264, 100%, 61%) 0%,hsl(293, 100%, 63%)  100%);
-    width: 400px;
-    height: 600px;
+    background: linear-gradient(to top, hsl(264, 100%, 61%) 0%,hsl(293, 100%, 63%) 100%);
+    width: 592px;
+    height: 702px;
     top: 0;
     left: 0;
-    border-bottom-right-radius: 200px;
-    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
     z-index: -1;
 
 }
@@ -44,7 +44,7 @@ body::before
     max-height: 600px;
     padding: 15px;
     border-radius: 30px;
-    box-shadow: 10px 10px 10px rgb(196, 196, 196);
+    box-shadow: 10px 10px 20px rgb(196, 196, 196);
 }
 .chat-app .chat
 {
